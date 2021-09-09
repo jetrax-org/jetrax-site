@@ -2,19 +2,17 @@
 
 :global(body) {
   background-color: #0D0221;
-  
   transition: background-color 0.3s;
 }
 :global(body.dark-mode) {
   background-color: #8a919c;
   color: #d6d6e7;
   h1 {
+    transition: color 0.9s;
     color: #0D0221; 
   }
   p {
+    transition: color 0.9s;
     color: #0D0221; 
-  }
-  ul#menu {
-    background-color: #d6d6e7;
   }
 }

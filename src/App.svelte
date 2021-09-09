@@ -17,6 +17,7 @@
   <Toggler>Toggle</Toggler>
   <main>
     <h1>Jetrax</h1>
+    <p>Jetrax, An OSS Chat Platform Made with Svelte</p>
     <p>A next gen chat platform for developers</p>
     <button>Click here to learn more</button>
   </main>

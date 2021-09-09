@@ -7,13 +7,13 @@ button {
   color: white;
   border: none;
   border-radius: 5px;
-  transition: padding 0.3s;
+  transition: padding 0.4s;
   padding: $mainButtonPadding;
   &:hover {
     transition: background-color 0.4s;
     background-color: #b6b7d5;
     color: white;
-    transition: padding 0.3s;
+    transition: padding 0.4s;
     padding: $timerPadding;
   }
 }

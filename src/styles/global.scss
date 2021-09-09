@@ -25,6 +25,8 @@ input {
   }
 }
 button {
+  box-shadow: 0 20px 20px rgba(88, 88, 92, 0.19), 0 10px 10px rgba(88, 88, 92, 0.19);
+  
   display: inline-block;
   outline: none;
   cursor: pointer;
@@ -38,20 +40,19 @@ button {
   font-size: 13px;
   height: 41px;
   word-spacing: 0px;
-  letter-spacing: 0.0892857143em;
   text-transform: uppercase;
   min-width: 64px;
   border: none;
   text-align: center;
   transition: min-width 10s;
-  &:hover {
+  &:hover { 
     background: rgb(30, 0, 238);
     transition: letter-spacing 0.9s;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.2em;
   }
+  transition: letter-spacing 0.9s;
+  letter-spacing: 0.0892857143em;
   &:focus {
-    transition: letter-spacing 0.9s;
-    letter-spacing: 0.0892857143em;
     background: rgb(32, 0, 238);
   }
 }
@@ -63,6 +64,7 @@ img {
   // TODO image align center
 }
 h1 {
+  transition: color 0.9s;
   color: #A6CFD5;
   text-transform: uppercase;
   font-size: 4em;
@@ -70,9 +72,13 @@ h1 {
 }
 
 p {
+  transition: color 0.9s;
   color: #A6CFD5;
   font-size: 1.4em;
   font-weight: 100;
+  &:hover {
+    font-weight: 900;
+  }
 }
 @media (min-width: 375px) {
   main {
