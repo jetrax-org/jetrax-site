@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap");
+
+main {
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  padding: 1em;
+  max-width: 240px;
+  margin: 0 auto;
+}
+input {
+  min-height: 100%;
+  position: relative;
+  color: rgb(36, 35, 42);
+  font-size: 16px;
+  line-height: 20px;
+  min-height: 28px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  box-shadow: rgb(0, 0, 0 / 12%) 0px, 1px, 3px, rgb(0, 0, 0 / 24%) 0px, 1px, 2px;
+  background: rgb(251, 251, 251);
+  transition: all 0.1s ease 0s;
+  &:focus {
+    border: 1px solid rgb(124, 138, 255);
+  }
+}
+button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 0 16px;
+  border-radius: 4px;
+  color: #fff;
+  background: #6200ee;
+  line-height: 1.15;
+  font-size: 13px;
+  height: 41px;
+  word-spacing: 0px;
+  letter-spacing: 0.0892857143em;
+  text-transform: uppercase;
+  min-width: 64px;
+  border: none;
+  text-align: center;
+  transition: min-width 10s;
+  &:hover {
+    background: rgb(30, 0, 238);
+    transition: letter-spacing 0.9s;
+    letter-spacing: 0.15em;
+  }
+  &:focus {
+    transition: letter-spacing 0.9s;
+    letter-spacing: 0.0892857143em;
+    background: rgb(32, 0, 238);
+  }
+}
+img {
+  padding-left: 7em;
+}
+.imagecol {
+  display: inline;
+  // TODO image align center
+}
+h1 {
+  color: #A6CFD5;
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 100;
+}
+
+p {
+  color: #A6CFD5;
+  font-size: 1.4em;
+  font-weight: 100;
+}
+@media (min-width: 375px) {
+  main {
+    max-width: none;
+  }
+  img {
+    width: 15em;
+    height: 15em;
+  }
+}
+@media (max-width: 375px) {
+  img {
+    width: 10em;
+    height: 10em;
+  }
+}
