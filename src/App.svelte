@@ -2,7 +2,7 @@
   import { getContext } from 'svelte';
   import { fade } from "svelte/transition";
   import { draw } from "svelte/transition";
-  import Toggler from "./ViewMode.svelte";
+  import Toggler from "./components/ViewMode.svelte";
   
 </script>
 
@@ -21,14 +21,16 @@
   <main>
     
     <h1>Jetrax</h1>
-    <p>Jetrax, An OSS Chat Platform Made For Developers</p>
+    <p>Jetrax, An OSS Chat Platform Made For Developers!</p>
     <button>Click here to learn more</button>
   </main>
-  <div >
-   <!-- <img src="./pic.png">
-   <p class="imagecol">sadasdasd</p> -->
-  </div>
-</div>  
+  <br/><br/><br/><br/>
+   <p class="imagecol">Fast and secure made using deno.</p> 
+   <br/><br/><br/><br/>
+   <p class="imagecol2">Open Source on Github</p> 
+   <p>Test commit was here.</p>
+   <br/><br/><br/><br/>
+</div>
 
 <style lang="scss">
   @import "./styles/global.scss";
