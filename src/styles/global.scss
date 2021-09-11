@@ -24,9 +24,10 @@ input {
     border: 1px solid rgb(124, 138, 255);
   }
 }
+
 button {
-  box-shadow: 0 20px 20px rgba(88, 88, 92, 0.19), 0 10px 10px rgba(88, 88, 92, 0.19);
-  
+  box-shadow: 0 13px 13px rgba(88, 88, 92, 0.19),
+    0 20px 20px rgba(88, 88, 92, 0.19);
   display: inline-block;
   outline: none;
   cursor: pointer;
@@ -45,40 +46,45 @@ button {
   border: none;
   text-align: center;
   transition: min-width 10s;
-  &:hover { 
+  :global(body.dark-mode) {
+    transition: background 1.2s;
+    background: black;
+  }
+  &:hover {
     background: rgb(30, 0, 238);
     transition: letter-spacing 0.9s;
     letter-spacing: 0.2em;
   }
+
   transition: letter-spacing 0.9s;
   letter-spacing: 0.0892857143em;
   &:focus {
     background: rgb(32, 0, 238);
   }
 }
+
 img {
   padding-left: 7em;
 }
 .imagecol {
   display: inline;
-  // TODO image align center
+  // TODO(dhairy-online): image align center
 }
 h1 {
+  position: static;
   transition: color 0.9s;
-  color: #A6CFD5;
+  color: #a6cfd5;
   text-transform: uppercase;
   font-size: 4em;
   font-weight: 100;
 }
 
 p {
+  position: static;
   transition: color 0.9s;
-  color: #A6CFD5;
-  font-size: 1.4em;
+  color: #a6cfd5;
+  font-size: 1.3em;
   font-weight: 100;
-  &:hover {
-    font-weight: 900;
-  }
 }
 @media (min-width: 375px) {
   main {

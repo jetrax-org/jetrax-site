@@ -1,12 +1,15 @@
-<script lang="ts">
+<script lang="ts"> 
+  import { getContext } from 'svelte';
   import { fade } from "svelte/transition";
   import { draw } from "svelte/transition";
   import Toggler from "./ViewMode.svelte";
+  
 </script>
 
 <title>Jetrax</title>
 
 <div>
+  
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
@@ -16,9 +19,9 @@
   />
   <Toggler>Toggle</Toggler>
   <main>
+    
     <h1>Jetrax</h1>
-    <p>Jetrax, An OSS Chat Platform Made with Svelte</p>
-    <p>A next gen chat platform for developers</p>
+    <p>Jetrax, An OSS Chat Platform Made For Developers</p>
     <button>Click here to learn more</button>
   </main>
   <div >

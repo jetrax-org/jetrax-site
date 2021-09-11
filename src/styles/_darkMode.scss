@@ -1,18 +1,24 @@
-@import "global.scss";
-
 :global(body) {
-  background-color: #0D0221;
-  transition: background-color 0.3s;
-}
-:global(body.dark-mode) {
-  background-color: #8a919c;
-  color: #d6d6e7;
+  background-color: #0d0221;
+  transition: background-color 0.38s;
   h1 {
-    transition: color 0.9s;
-    color: #0D0221; 
+    transition: color 1.3s;
+    color: #8a919c;
   }
   p {
-    transition: color 0.9s;
-    color: #0D0221; 
+    transition: color 1.3s;
+    color: #8a919c;
+  }
+}
+:global(body.dark-mode) {
+  background: #8a919c;
+  color: #d6d6e7;
+  h1 {
+    transition: color 1.2s;
+    color: #0d0221;
+  }
+  p {
+    transition: color 1.2s;
+    color: #0d0221;
   }
 }

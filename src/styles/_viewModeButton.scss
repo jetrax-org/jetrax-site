@@ -10,6 +10,7 @@ button {
   transition: padding 0.4s;
   padding: $mainButtonPadding;
   &:hover {
+    cursor: pointer;
     transition: background-color 0.4s;
     background-color: #b6b7d5;
     color: white;
@@ -25,6 +26,7 @@ button {
   transition: padding 0.3s;
   padding: $mainButtonPadding;
   &:hover {
+    cursor: pointer;
     transition: background-color 0.4s;
     background-color: #36395a;
     color: white;
