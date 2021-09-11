@@ -1,4 +1,5 @@
 :global(body) {
+  cursor: crosshair;
   background-color: #0d0221;
   transition: background-color 0.38s;
   h1 {
@@ -16,6 +17,14 @@
   h1 {
     transition: color 1.2s;
     color: #0d0221;
+  }
+  .imagecol {
+    transition: background 0.38s;
+    background: #828891;
+  }
+  .imagecol2 {
+    transition: background 0.38s;
+    background: #828891;
   }
   p {
     transition: color 1.2s;

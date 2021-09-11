@@ -22,14 +22,15 @@
     
     <h1>Jetrax</h1>
     <p>Jetrax, An OSS Chat Platform Made For Developers!</p>
-    <button>Click here to learn more</button>
+    <button type="button"><a href="https://github.com/jetrax-org/jetrax">Click here to learn more</a></button>
   </main>
-  <br/><br/><br/><br/>
-   <p class="imagecol">Fast and secure made using deno.</p> 
-   <br/><br/><br/><br/>
-   <p class="imagecol2">Open Source on Github</p> 
-   <p>Test commit was here.</p>
-   <br/><br/><br/><br/>
+  <br/><br/><br/><br/><br/>
+   <p class="imagecol">Fast and secure made server written in Deno.</p> 
+   <br/><br/><br/><br/><br/>
+   <p class="imagecol2">Open Source on Github!</p> 
+   <br/><br/><br/><br/><br/>
+   <p class="imagecol">Coming Soon!</p> 
+   <br/><br/><br/><br/><br/>
 </div>
 
 <style lang="scss">

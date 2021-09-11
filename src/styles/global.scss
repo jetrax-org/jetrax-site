@@ -8,27 +8,10 @@ main {
   margin: 0 auto;
 }
 
-input {
-  min-height: 100%;
-  position: relative;
-  color: rgb(36, 35, 42);
-  font-size: 16px;
-  line-height: 20px;
-  min-height: 28px;
-  border-radius: 4px;
-  padding: 8px 16px;
-  border: 2px solid transparent;
-  box-shadow: rgb(0, 0, 0 / 12%) 0px, 1px, 3px, rgb(0, 0, 0 / 24%) 0px, 1px, 2px;
-  background: rgb(251, 251, 251);
-  transition: all 0.1s ease 0s;
-  &:focus {
-    border: 1px solid rgb(124, 138, 255);
-  }
-}
-
 button {
-  box-shadow: 0 13px 13px rgba(88, 88, 92, 0.19),
-    0 20px 20px rgba(88, 88, 92, 0.19);
+  transition: box-shadow 1.2s;
+  box-shadow: 0 10px 10px #0c021f,
+    0 8px 8px #040404;
   display: inline-block;
   outline: none;
   cursor: pointer;
@@ -65,30 +48,34 @@ button {
 }
 
 .imagecol {
+  box-shadow: 0 9px 9px #050011,
+    0 5px 5px #0c021f;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0c021f;
   display: inline;
   /**
     TODO:
     - Add Cards
    */
   margin: 7em;
-  padding: 1em;
   font-family: "Urbanist", sans-serif;
 }
 .imagecol2 {
+  box-shadow: 0 9px 9px #050011,
+    0 5px 5px #0c021f;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #0c021f;
   display: inline;
   /**
     TODO:
     - Add Cards
    */
   margin: 30em;
-  padding: 1em;
   font-family: "Urbanist", sans-serif;
 }
-.card-subtitle {
-  
-  font-size: 1.87em;
 
-}
 h1 {
   position: static;
   transition: color 0.9s;
@@ -105,18 +92,13 @@ p {
   font-size: 1.6em;
   font-weight: 100;
 }
+a {
+  transition: color 0.9s;
+  color: #a6cfd5;
+  font-size: 1.17em;
+}
 @media (min-width: 375px) {
   main {
     max-width: none;
-  }
-  img {
-    width: 15em;
-    height: 15em;
-  }
-}
-@media (max-width: 375px) {
-  img {
-    width: 10em;
-    height: 10em;
   }
 }
